@@ -1,0 +1,35 @@
+<AllStepParameters>
+    <StepParameter ID="loginPrm" Name="login_success" >
+      <ConnectionString></ConnectionString>
+      <CommandText></CommandText>
+      <Parameters> 
+      <parameter Key="$SERVERID" Value="3000001"/>	
+      <parameter Key="$LOGIN_INFO" Value="13641216683"/>	
+      <parameter Key="$LOGPWD" Value="pyt000000"/>	
+     </Parameters>
+    </StepParameter>
+    
+	<StepParameter ID="accountPrm" Name="UserInfo1" >
+      <ConnectionString></ConnectionString>
+      <CommandText></CommandText>
+      <Parameters>
+      <parameter Key="$SERVERID" Value="50000001"/>	 
+      <parameter Key="UserInfoSql" Value="SELECT distinct ACCOUNT_BALACE,FREEZE_AMOUNT FROM TAccountTuoGuan tg ,u_base_user u WHERE u.USER_ID=tg.USERID and u.LOGIN_NAME='13641216683'"/>       	  	
+     </Parameters>
+    </StepParameter>
+    
+	<StepParameter ID="investPrm" Name="doInvest" >
+      <ConnectionString></ConnectionString>
+      <CommandText></CommandText>
+      <Parameters>
+      <parameter Key="$SERVERID" Value="6180000"/>
+      <parameter Key="$PRODUCT_ID" Value="1998"/>  
+      <parameter Key="$INVEST_AMOUNT" Value="1000"/>  
+      <parameter Key="$TRADE_PWD" Value="pyt111111"/>  
+      <parameter Key="$PZTQ_INVEST_AMOUNT" Value="0.00"/>  
+     </Parameters>
+    </StepParameter>
+    
+   
+  
+</AllStepParameters>

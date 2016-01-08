@@ -1,0 +1,11 @@
+  <AllTestCases>
+  	<StepParametersFilePath>IndexLogin3000001Parameters.xml</StepParametersFilePath>
+    <StepAssembly>com.pyt.autotesting.platform.index.</StepAssembly>
+    <StepGroup>LoginTest</StepGroup>
+     <TestCase ID="TestloginOk" Name="Login_success">
+       <Step StepName="loginOk" StepParameterID="loginPrmOk"/>       
+    </TestCase>
+     <TestCase ID="TestloginErr" Name="Login_error">
+       <Step StepName="loginErr" StepParameterID="loginPrmErr"/>
+    </TestCase>
+  </AllTestCases>

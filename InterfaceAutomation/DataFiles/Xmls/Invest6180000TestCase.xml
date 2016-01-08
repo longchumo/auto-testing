@@ -1,0 +1,17 @@
+  <AllTestCases>
+    <StepParametersFilePath>Invest6180000Parameters.xml</StepParametersFilePath>
+    <StepAssembly>com.pyt.autotesting.platform.invest.</StepAssembly>
+    <StepGroup>InvestStep</StepGroup>
+     <TestCase ID="TestCase01" Name="RegisterGameUser_success">
+       <Step StepName="userLogin" StepParameterID="loginPrm"/>
+       <Step StepName="userAccountBefor" StepParameterID="accountPrm"/>
+       <Step StepName="investAction" StepParameterID="investPrm"/>
+       <Step StepName="userAccountAfter" StepParameterID="accountPrm"/>
+    </TestCase>
+     <TestCase ID="TestCase02" Name="RegisterGameUser_success2">
+       <Step StepName="userLogin" StepParameterID="loginPrm"/>
+       <Step StepName="userAccountBefor" StepParameterID="accountPrm"/>
+       <Step StepName="investAction" StepParameterID="investPrm"/>
+       <Step StepName="userAccountAfter" StepParameterID="accountPrm"/>
+    </TestCase>
+  </AllTestCases>

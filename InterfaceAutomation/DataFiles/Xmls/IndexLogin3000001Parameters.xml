@@ -1,0 +1,24 @@
+<AllStepParameters>
+	  <StepParameter ID="loginPrmOk" Name="login_success" >
+      <ConnectionString></ConnectionString>
+      <CommandText></CommandText>
+      <Parameters> 
+      <parameter Key="$SERVERID" Value="3000001"/>	
+      <parameter Key="$LOGIN_INFO" Value="13641216683"/>	
+      <parameter Key="$LOGPWD" Value="pyt000000"/>	
+     </Parameters>
+    </StepParameter>
+    
+	<StepParameter ID="loginPrmErr" Name="login_err" >
+      <ConnectionString></ConnectionString>
+      <CommandText></CommandText>
+      <Parameters> 
+      <parameter Key="$SERVERID" Value="3000001"/>	
+      <parameter Key="$LOGIN_INFO" Value="13641216683"/>	
+      <parameter Key="$LOGPWD" Value="123qwe"/>	
+     </Parameters>
+    </StepParameter>
+    
+   
+  
+</AllStepParameters>

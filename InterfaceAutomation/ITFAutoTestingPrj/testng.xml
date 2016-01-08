@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="com.gateside.autotesting.generation.unittest.IndexLogin3000001TestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.Invest6180000TestCase"/>
+      <class name="com.gateside.autotesting.generation.unittest.PytSingleInterface_10001110"/>
+      <class name="com.gateside.autotesting.generation.unittest.PytSingleInterface_111008"/>
+    </classes>
+  </test>
+</suite>

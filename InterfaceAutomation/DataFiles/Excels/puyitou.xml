@@ -1,0 +1,11 @@
+<AllStepParameters>
+     <StepParameter ID="Test01" Name="UserInfo" >
+      <ConnectionString>jdbc:mysql://10.88.2.58:3306/ce_invest</ConnectionString>
+      <CommandText></CommandText>
+      <Parameters>
+      <parameter Key="user" Value="pytuser"/>
+      <parameter Key="password" Value="pyt58!@#"/>
+      <parameter Key="UserInfoSql" Value="SELECT ACCOUNT_BALACE,FREEZE_AMOUNT	FROM TAccountTuoGuan WHERE USERID='9999P1044'"/> 
+     </Parameters>
+    </StepParameter>
+</AllStepParameters>
